@@ -1,0 +1,97 @@
+.navbar {
+  font-family: "poppins", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #949486;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.navbar a {
+  margin-top: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+.navbar a i {
+  margin-right: 5px;
+  display: none;
+}
+@media (min-width: 601px) {
+  .navbar a i {
+    display: inline;
+  }
+}
+.navbar a:hover {
+  color: #171717;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.section-history {
+  margin-bottom: 100px;
+}
+.section-history h1 {
+  font-size: 50px;
+  margin-top: 130px;
+  text-align: center;
+  letter-spacing: -3px;
+  margin-bottom: 10px;
+}
+.section-history p {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+@media (min-width: 601px) {
+  .section-history p {
+    margin: 0 auto;
+    width: 56%;
+    margin-bottom: 80px;
+  }
+}
+
+.section-employees {
+  background-color: rgb(182, 182, 175);
+  padding-top: 50px;
+  height: auto;
+  width: 100%;
+}
+.section-employees h2 {
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: -2px;
+}
+.section-employees .employees {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-employees .employees div {
+  align-items: center;
+}
+.section-employees .employees div h3 {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.section-employees .employees div img {
+  width: 200px;
+  height: 230px;
+  border-radius: 50px;
+}
+
+footer {
+  background-color: #949486;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 12px;
+}/*# sourceMappingURL=about.css.map */

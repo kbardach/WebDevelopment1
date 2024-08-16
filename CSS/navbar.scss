@@ -1,0 +1,31 @@
+.navbar {
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #949486;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+    a {
+        margin-top: 20px;
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+
+        i {
+            margin-right: 5px;
+            display: none;
+
+            @media (min-width: 601px) {
+                display: inline;
+            }
+        }
+    }
+
+    a:hover {
+        color: #171717;
+    }
+}

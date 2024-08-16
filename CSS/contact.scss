@@ -1,0 +1,121 @@
+@import 'navbar';
+
+body {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin-top: 180px;
+    text-align: center;
+
+    .address-section {
+
+        h1 {
+            font-size: 25px;
+            font-weight: 400;
+            letter-spacing: -1px;
+            color: rgb(184, 146, 49);
+            margin-bottom: 50px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 30px;
+            letter-spacing: -1px;
+            font-weight: 300;
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+
+    .social-media {
+        margin-top: 50px;
+        h2 {
+            color: rgb(184, 146, 49);
+            font-weight: 600;
+        }
+
+        a {
+            margin: 0px 7px;
+
+            i {
+                font-size: 30px; 
+                color: #6e6e5d;
+            }
+        }
+    }
+}
+
+.contact-form {
+    background-color: rgb(182, 182, 175);
+    display: flex;
+    justify-content: center;
+
+    .contact-section {
+        max-width: 600px;
+        text-align: left;
+
+        h2 {
+            text-align: center;
+            margin-top: 100px;
+            margin-bottom: 50px;
+
+            font-size: 30px;
+            letter-spacing: -2px;
+            font-weight: 600;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        label {
+            font-size: 18px;
+            letter-spacing: -1px;
+        }
+
+        input,
+        textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            resize: none;
+        }
+
+        input:focus,
+        textarea:focus {
+            outline: none;
+        }
+
+
+        button {
+            padding: 10px;
+            background-color: rgb(184, 146, 49);
+            color: white;
+            font-weight: 600;
+            border: none;
+            border-radius: 4px;
+            margin-top: 10px;
+            margin-bottom: 120px;
+        }
+
+        button:hover {
+            border: none;
+            color:rgb(184, 146, 49);
+            background-color: white;
+        }
+    }
+}
+
+
+footer {
+    background-color: #949486;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 12px;
+}

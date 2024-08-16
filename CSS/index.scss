@@ -1,0 +1,138 @@
+@import 'navbar';
+
+body, header {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+.section-one {
+    height: 600px;
+    width: auto;
+
+    .top-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 120px;
+
+        img {
+            margin-top: 80px;
+            margin-bottom: 30px;
+            height: 120px;
+        }
+
+        h1 {
+            font-size: 28px;
+            letter-spacing: -2px;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 18px;
+            text-align: center;
+            width: 70%;
+            margin-bottom: 50px;
+        }
+
+        a {
+            text-decoration: none;
+            border: 1px solid rgb(184, 146, 49);
+            color: rgb(184, 146, 49);
+            padding: 10px 15px;
+        }
+
+        a:hover {
+            background-color: rgb(184, 146, 49);
+            color: white;
+        }
+    }
+}
+
+.section-two {
+    background-color: rgb(182, 182, 175);
+    height: auto;
+    width: auto;
+
+    .second-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            font-size: 28px;
+            margin-top: 100px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        p {
+            font-size: 17px;
+            text-align: center;
+            width: 60%;
+
+            @media (min-width: 601px) {
+                margin-bottom: 40px;
+            }
+        }
+
+        .reference-gallery {
+            @media (min-width: 601px) {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                margin-bottom: 50px;
+                gap: 30px;
+            }
+
+
+
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .number { 
+                    font-size: 18px;
+                    text-align:start;
+                    margin-bottom: 0px;
+
+                    @media (min-width: 601px) {
+                        display: none;
+                    }
+                }
+
+                img {
+                    width: 60%;
+                    height: auto;
+                    border-radius: 10px;
+                    opacity: 0.8;
+                }
+
+                h4 {
+                    font-size: 19px;
+                    margin-bottom: -10px;
+                }
+
+                p {
+                    margin-bottom: 30px;
+                    color: rgb(94, 97, 94);
+                    
+                    @media (min-width: 601px) {
+                        width: 80%;
+                    }
+                }
+
+                .bottom {
+                    margin-bottom: 80px;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background-color: #949486;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 12px;
+}

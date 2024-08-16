@@ -1,0 +1,130 @@
+.navbar {
+  font-family: "poppins", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #949486;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.navbar a {
+  margin-top: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+.navbar a i {
+  margin-right: 5px;
+  display: none;
+}
+@media (min-width: 601px) {
+  .navbar a i {
+    display: inline;
+  }
+}
+.navbar a:hover {
+  color: #171717;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin-top: 180px;
+  text-align: center;
+}
+section .address-section h1 {
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  color: rgb(184, 146, 49);
+  margin-bottom: 50px;
+}
+section .address-section p {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: -1px;
+  font-weight: 300;
+  width: 80%;
+  margin: 0 auto;
+}
+section .social-media {
+  margin-top: 50px;
+}
+section .social-media h2 {
+  color: rgb(184, 146, 49);
+  font-weight: 600;
+}
+section .social-media a {
+  margin: 0px 7px;
+}
+section .social-media a i {
+  font-size: 30px;
+  color: #6e6e5d;
+}
+
+.contact-form {
+  background-color: rgb(182, 182, 175);
+  display: flex;
+  justify-content: center;
+}
+.contact-form .contact-section {
+  max-width: 600px;
+  text-align: left;
+}
+.contact-form .contact-section h2 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  letter-spacing: -2px;
+  font-weight: 600;
+}
+.contact-form .contact-section form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.contact-form .contact-section label {
+  font-size: 18px;
+  letter-spacing: -1px;
+}
+.contact-form .contact-section input,
+.contact-form .contact-section textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: none;
+}
+.contact-form .contact-section input:focus,
+.contact-form .contact-section textarea:focus {
+  outline: none;
+}
+.contact-form .contact-section button {
+  padding: 10px;
+  background-color: rgb(184, 146, 49);
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 120px;
+}
+.contact-form .contact-section button:hover {
+  border: none;
+  color: rgb(184, 146, 49);
+  background-color: white;
+}
+
+footer {
+  background-color: #949486;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 12px;
+}/*# sourceMappingURL=contact.css.map */
